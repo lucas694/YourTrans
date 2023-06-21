@@ -1,0 +1,11 @@
+.BtnBase{
+    @apply px-6 py-2 text-[#1C1C1C] text-sm font-medium cursor-pointer rounded-md
+}
+
+.BtnBlue{
+    @apply bg-[#1341EC] text-[#FFFFFF]
+}
+.BtnBlueAbout{
+    @apply bg-[#1341EC] text-[#FFFFFF] w-full
+    md:w-auto
+}

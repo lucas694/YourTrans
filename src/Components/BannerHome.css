@@ -1,0 +1,62 @@
+.BannerHomeContainer{
+    background-image: url("../assets/BgHome.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    @apply flex flex-col justify-center items-center w-full p-3
+    md:p-12
+}
+.BannerHomeContent{
+    @apply flex flex-col justify-center items-center w-full border border-[#10254D] rounded-2xl py-10
+    lg:flex-row md:py-20
+}
+.HomeContentLeft{
+    @apply flex flex-col justify-center w-full px-4
+    lg:w-1/2 md:px-8
+}
+.HomeContentRight{
+    @apply flex flex-col justify-center items-center w-full px-8 mt-12
+    lg:w-1/2
+}
+.BannerImg{
+    @apply w-[100%]
+    sm:w-[80%]
+    xl:w-[70%]
+}
+.HomeLeftTitle{
+    @apply text-[#FFFFFF] text-3xl font-semibold mt-4
+    md:text-5xl md:mt-6
+    lg:text-4xl lg:mt-4
+    xl:text-5xl xl:mt-6
+}
+.HomeLeftSubTitle{
+    @apply text-[#FFFFFF] text-[0.68rem] font-normal uppercase tracking-wide
+    md:tracking-widest md:text-xs
+    lg:text-[0.68rem]
+    xl:text-xs
+}
+.HomeLeftDesc{
+    @apply text-[#FFFFFF] text-sm mt-4
+    md:mt-6 md:text-base
+    lg:text-sm lg:mt-4
+    xl:text-base xl:mt-4
+}
+.HomeLeftInput{
+    @apply w-full h-11 mt-4 rounded-md
+    flex flex-row justify-between items-center overflow-hidden
+    md:w-[90%] md:mt-6 md:h-12
+
+}
+.HomeLeftInput input{
+    @apply w-full h-full px-4 text-[#1C1C1C] bg-[#FFFFFF] text-[0.68rem]
+    outline-none
+    md:text-xs
+}
+.HomeLeftInput button{
+    @apply w-1/3 h-full px-4 text-[#FFFFFF] bg-[#1341EC] cursor-pointer text-[0.68rem]
+    outline-none transition duration-500 ease-in-out
+    md:text-xs
+}
+.HomeLeftInput button:hover{
+    @apply bg-[#0A2B9D]
+}

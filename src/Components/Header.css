@@ -1,0 +1,15 @@
+.HeaderContainer{
+    @apply hidden md:flex justify-center items-center w-full
+}
+.HeaderContent{
+    @apply flex flex-row justify-between items-center w-full px-14 py-4
+}
+.UlHeader{
+    @apply flex flex-row justify-center items-center w-auto
+}
+.LiHeader{
+    @apply px-4 py-2 text-[#1C1C1C] text-sm font-semibold cursor-pointer
+}
+.HeaderLogo{
+    @apply w-24
+}
